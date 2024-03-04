@@ -1,4 +1,5 @@
 # minimal-cpp-template-project
+[![ci](https://github.com/JungerBoyo/minimal-cpp-template-project/actions/workflows/ci.yml/badge.svg)](https://github.com/JungerBoyo/minimal-cpp-template-project/actions/workflows/ci.yml)
 
 Cpp cmake template project which is meant to be simple namely, easily understandable and modifiable. Works on windows and linux. For linux default is `GCC` compiler for windows default is `Clang` compiler. Project also implements github CI pipeline compiling and cpacking + publishing project for windows and linux. Compile happens on every commit, cpacking and publishing on a release.
 
