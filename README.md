@@ -1,6 +1,6 @@
 # minimal-cpp-template-project
 
-Cpp cmake template project which is meant to be simple namely, easily understandable and modifiable. Works on windows and linux. For linux default is `GCC` compiler for windows default is `Clang` compiler.
+Cpp cmake template project which is meant to be simple namely, easily understandable and modifiable. Works on windows and linux. For linux default is `GCC` compiler for windows default is `Clang` compiler. Project also implements github CI pipeline compiling and cpacking + publishing project for windows and linux. Compile happens on every commit, cpacking and publishing on a release.
 
 ## Package manager
 
@@ -30,5 +30,5 @@ You can specifies additional variables that should be appended to cmake conf. Sp
 To build run command: 
 ```
   ./build.sh build
-               ^------ linux/windows
+               ^------ build directory
 ```
